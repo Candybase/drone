@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_drone_1685439535988-push-trigger-input-set
+  identifier: Build_drone_1685439535988pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_drone_1685439535988
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
